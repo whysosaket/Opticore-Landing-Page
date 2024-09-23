@@ -1,0 +1,18 @@
+import { IoIosCall } from "react-icons/io";
+
+const Button = () => {
+  return (
+    <div className="flex gap-4 align-middle cursor-pointer">
+        <div className="bg-white/40 hover:bg-white/30 my-auto h-12 w-28 rounded-[5rem] flex justify-center align-middle">
+            <div className="bg-black/30 hover:bg-black/40 my-auto h-10 w-[6.4rem] rounded-3xl flex align-middle justify-center">
+                <h1 className="text-xs font-semibold text-center my-auto">SIGN UP</h1>
+            </div>
+        </div>
+        <div className="w-10 h-10 my-auto bg-white/40 hover:bg-white/30 flex justify-center align-middle rounded-full">
+            <IoIosCall className="my-auto" size={20} />
+        </div>
+    </div>
+  )
+}
+
+export default Button
