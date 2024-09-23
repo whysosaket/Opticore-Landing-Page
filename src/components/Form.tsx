@@ -1,8 +1,10 @@
 import WorkButton from "./shared/WorkButton"
+import Background from "../assets/bg.png";
 
 
 const Form = () => {
   return (
+    <>
     <div className="px-72 min-h-screen max-h-screen w-full flex flex-col z-[200]">
         <h1 className="text-[1.2rem] font-semibold text-center">GET IN TOUCH</h1>
         <div className="leading-none">
@@ -19,7 +21,11 @@ const Form = () => {
         <div className="flex justify-center">
             <WorkButton text="SUBMIT" />
         </div>
+        <div className="relative bottom-[40rem] right-[30rem] scale-x-[-1] flex -z-10">
+            <img src={Background} className="w-[90rem] opacity-50 blur-3xl" />
+        </div>
     </div>
+    </>
   )
 }
 

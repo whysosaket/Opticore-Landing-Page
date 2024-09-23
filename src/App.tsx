@@ -1,4 +1,5 @@
 import { About } from "./components/About/About"
+import Footer from "./components/Footer"
 import Form from "./components/Form"
 import Hero from "./components/Hero/Hero"
 import Navbar from "./components/Navbar"
@@ -18,6 +19,7 @@ function App() {
       <Work />
       <Strategy />
       <Form />
+      <Footer />
     </div>
   )
 }
