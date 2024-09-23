@@ -5,7 +5,7 @@ import Button from "../shared/Button";
 export const About = () => {
   return (
     <>
-      <div className='min-h-screen max-h-screen w-full flex backdrop-blur-3xl bg-whit/5'>
+      <div className='min-h-screen max-h-screen w-full flex backdrop-blur-3xl'>
       <div className='w-1/2 pt-12 pl-20'>
             <div className="relative flex flex-col right-52">
                 <img src={Image} className="w-full scale-x-[-1.2] scale-y-[1.2] z-50" />
