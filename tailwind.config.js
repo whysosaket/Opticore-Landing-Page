@@ -18,6 +18,7 @@ export default {
         gowun: ["Gowun Dodum", "sans-serif"],
         crr: ["CRR", "sans-serif"],
         crroutline: ["CRR Outline", "sans-serif"],
+        ld: ["Londrina Outline", "sans-serif"]
       },
     },
   },
