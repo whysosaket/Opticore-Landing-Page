@@ -6,7 +6,7 @@ const data = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,15,16,17,18,19,20
 const Strategy = () => {
   return (
     <>
-      <div className="min-h-screen -mb-[200rem] w-full flex flex-col backdrop-blur-3xl">
+      <div className="min-h-screen -mb-[200rem] w-full flex flex-col">
         <div className="flex justify-center z-[100] relative">
           <div className="overflow-x-hidden absolute top-40">
             <div className="py-12 animate-marquee whitespace-nowrap">

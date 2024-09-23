@@ -1,4 +1,5 @@
 import { About } from "./components/About/About"
+import Form from "./components/Form"
 import Hero from "./components/Hero/Hero"
 import Navbar from "./components/Navbar"
 import Strategy from "./components/Strategy"
@@ -16,7 +17,7 @@ function App() {
       </div>
       <Work />
       <Strategy />
-      <h1 className="font-inter">Hello World</h1>
+      <Form />
     </div>
   )
 }
