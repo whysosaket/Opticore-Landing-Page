@@ -9,8 +9,9 @@ import Work from "./components/Work/Work"
 
 function App() {
 
+
   return (
-    <div className="font-inter">
+    <div className={`font-inter overflow-x-hidden`}>
       <Navbar />
       <Hero />
       <div className="px-4">

@@ -9,7 +9,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ title, text, Icon }) => {
   return (
-    <div className="bg-white/10 flex w-[18rem] h-[24rem] flex-col gap-3 z-[50] px-4 py-8 border border-white/30 rounded-2xl">
+    <div className="bg-white/10 mx-auto flex w-[18rem] md:h-[24rem] flex-col gap-3 z-[50] px-4 py-8 border border-white/30 rounded-2xl">
       <div>
         <Icon size={30} /> {/* Use the dynamic icon passed via props */}
       </div>
