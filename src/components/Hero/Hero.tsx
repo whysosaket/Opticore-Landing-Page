@@ -24,10 +24,10 @@ const Hero = () => {
         </div>
     </div>
     <div className="absolute -right-[20rem] -top-[20rem] flex -z-10">
-        <img src={Background} className="w-[90rem opacity-70 blur-3xl" />
+        <img src={Background} className="w-[90rem] opacity-70 blur-3xl" />
     </div>
     <div className="absolute -left-[80rem] bottom-0 flex -z-10">
-        <img src={Background} className="w-[90rem opacity-70 blur-3xl" />
+        <img src={Background} className="w-[90rem] opacity-70 blur-3xl" />
       </div>
     </>
   )
