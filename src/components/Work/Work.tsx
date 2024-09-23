@@ -22,7 +22,7 @@ const Work = () => {
         <Card title={data[2].title} text={data[2].text} Icon={GiTeamIdea} />
         <Card title={data[3].title} text={data[3].text} Icon={BsPeople} />
       </div>
-      <div className="mt-20 flex justify-center">
+      <div className="mt-20 flex justify-center z-50">
         <WorkButton text="VIEW PROJECTS" />
       </div>
       <div className="relative bottom-[60rem] right-[20rem] scale-x-[-1] flex -z-10">
