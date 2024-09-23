@@ -5,10 +5,15 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @font-face {
-  font-family: "Nasa";
-  src: url("../fonts/nasalization-rg.otf");
-} */
+@font-face {
+  font-family: "CRR Outline";
+  src: url("../fonts/CRRNTN-Outline.ttf");
+}
+
+@font-face {
+  font-family: "CRR";
+  src: url("../fonts/CRRNTN-Regular.ttf");
+}
 
 body{
   background-color: #151D6Eff;

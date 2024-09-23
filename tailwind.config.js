@@ -7,16 +7,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        p1: '#D5DDF6ff',
-        p2: '#1C38A5ff',
-        p3: '#151D6Eff',
-        p4: '#34619Fff',
-        p5: '#5A71A4ff',
+        p1: "#F94C66ff",
+        p2: "#D86EE0ff",
+        p3: "#2138EFff",
+        p4: "#000005ff",
+        p5: "#D726F9ff",
       },
       fontFamily: {
         inter: ["Inter", "system-ui"],
         gowun: ["Gowun Dodum", "sans-serif"],
-        // nasa: ["Nasa", "sans-serif"],
+        crr: ["CRR", "sans-serif"],
+        crroutline: ["CRR Outline", "sans-serif"],
       },
     },
   },
